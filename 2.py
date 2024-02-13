@@ -1,11 +1,11 @@
 #Write a Python program to create a function that takes one argument, and that argument will be multiplied with an unknown given number.
  
-def multiply_with_unknown(x):
+def multiply(a):
     unknown_number = 10  
-    return x * unknown_number
+    return a * unknown_number
 
-user_input = float(input("Enter a number: "))
+input_value = float(input("Enter a number: "))
 
-result = multiply_with_unknown(user_input)
+result = multiply(input_value)
 
-print(f"The result of multiplying {user_input} with an unknown number is: {result}")
+print(f"The result of multiplying {input_value} with an unknown number is: {result}")

@@ -1,13 +1,13 @@
 #Write a Python program to find if a given string starts with a given character using Lambda. 
 
-starts_with_char = lambda string, char: string.startswith(char)
+start = lambda string, char: string.startswith(char)
 
-user_string = input("Enter a string: ")
-user_char = input("Enter a character to check if the string starts with it: ")
+string = input("Enter a string: ")
+char = input("Enter a character to check if the string starts with it: ")
 
-result = starts_with_char(user_string, user_char)
+result = start(string, char)
 
 if result:
-    print(f"The string '{user_string}' starts with the character '{user_char}'.")
+    print(f"The string '{string}' starts with the character '{char}'.")
 else:
-    print(f"The string '{user_string}' does not start with the character '{user_char}'.")
+    print(f"The string '{string}' does not start with the character '{char}'.")
